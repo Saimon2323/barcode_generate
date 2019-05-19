@@ -14,13 +14,13 @@
 </head>
 <body>
 		<?php
-		for ($i=1540981065501; $i <= 1540981065514; $i++) { 
+		$code = "154-098-106-";
+		for ($i=5490; $i <= 5503; $i++) { 
 			?>
 			<div class="okk" >
 				<div>
 					<img src="sticker.png">
-					<img style="width: 92px;height: 90px;margin-left: -295px;margin-top: -45px" src="images/<?= $i; ?>.jpg">
-					<p style="margin-top: -56px;margin-left: 5px;font-size: 10px"><?=$i?></p>
+					<img style="width: 92px;height: 90px;margin-left: -295px;margin-top: -45px" src="imagesWithDass/<?= "$code".$i; ?>.jpg">
 				</div>
 			</div>
 			<?php
